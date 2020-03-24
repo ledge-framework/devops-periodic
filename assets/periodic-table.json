@@ -1,0 +1,853 @@
+[
+  {
+    "name": "Gitlab",
+    "category": "scm",
+    "number": 1,
+    "pay": "Os",
+    "symbol": "Gl"
+  },
+  {
+    "name": "Gitea",
+    "category": "scm",
+    "number": 3,
+    "pay": "Fm",
+    "symbol": "Ge"
+  },
+  {
+    "name": "GitHub",
+    "category": "scm",
+    "number": 11,
+    "pay": "Fm",
+    "symbol": "Gh"
+  },
+  {
+    "name": "SubVersion",
+    "category": "scm",
+    "number": 19,
+    "pay": "Os",
+    "symbol": "Sv"
+  },
+  {
+    "name": "Mercurial",
+    "category": "scm",
+    "number": 37,
+    "pay": "Os",
+    "symbol": "Mc"
+  },
+  {
+    "name": "Gerrit",
+    "category": "scm",
+    "number": 55,
+    "pay": "Os",
+    "symbol": "Ge"
+  },
+
+  {
+    "name": "Artifactory",
+    "category": "packageManage",
+    "number": 88,
+    "pay": "Fm",
+    "symbol": "Af"
+  },
+
+  {
+    "name": "Nexus",
+    "category": "packageManage",
+    "number": 56,
+    "pay": "Os",
+    "symbol": "Nx"
+  },
+  {
+    "name": "Archiva",
+    "category": "packageManage",
+    "number": 87,
+    "pay": "Os",
+    "symbol": "Ah"
+  },
+
+  {
+    "name": "Liquibase",
+    "category": "database",
+    "number": 4,
+    "pay": "Os",
+    "symbol": "lq"
+  },
+  {
+    "name": "Flyway",
+    "category": "database",
+    "number": 12,
+    "pay": "Os",
+    "symbol": "Fl"
+  },
+  {
+    "name": "Redgate",
+    "category": "database",
+    "number": 20,
+    "pay": "Os",
+    "symbol": "Rg"
+  },
+
+  {
+    "name": "Jenkins",
+    "category": "ci",
+    "number": 22,
+    "pay": "Os",
+    "symbol": "Jk"
+  },
+  {
+    "name": "Bamboo",
+    "category": "ci",
+    "number": 40,
+    "pay": "Pd",
+    "symbol": "Jk"
+  },
+  {
+    "name": "VSTS",
+    "category": "ci",
+    "number": 38,
+    "pay": "Pd",
+    "symbol": "Vs"
+  },
+  {
+    "name": "TeamCity",
+    "category": "ci",
+    "number": 21,
+    "pay": "Pd",
+    "symbol": "Tc"
+  },
+  {
+    "name": "Travis CI",
+    "category": "ci",
+    "number": 39,
+    "pay": "Pd",
+    "symbol": "Tr"
+  },
+
+
+  {
+    "name": "Zabbix",
+    "category": "monitoring",
+    "number": 57,
+    "pay": "Os",
+    "symbol": "Zb"
+  },
+  {
+    "name": "Nagios",
+    "category": "monitoring",
+    "number": 58,
+    "pay": "Os",
+    "symbol": "Na"
+  },
+  {
+    "name": "Ganglia",
+    "category": "monitoring",
+    "number": 59,
+    "description": "Ganglia 是用于高性能计算系统，群集和网络的可伸缩的分布式监视工具。",
+    "pay": "Os",
+    "symbol": "Gl"
+  },
+  {
+    "name": "Sensu",
+    "category": "monitoring",
+    "number": 60,
+    "description": "Sensu 是由 Sonian 公司开发的一种监控框架，主要用于拥有大规模节点的云计算平台的检查与监控。",
+    "pay": "Os",
+    "symbol": "Ss"
+  },
+  {
+    "name": "Icinga",
+    "category": "monitoring",
+    "number": 61,
+    "description": "Sensu 是由 Sonian 公司开发的一种监控框架，主要用于拥有大规模节点的云计算平台的检查与监控。",
+    "pay": "Os",
+    "symbol": "Ic"
+  },
+  {
+    "name": "StatsD",
+    "category": "monitoring",
+    "number": 62,
+    "pay": "Os",
+    "symbol": "Sd"
+  },
+  {
+    "name": "Graphite",
+    "category": "monitoring",
+    "number": 63,
+    "pay": "Os",
+    "symbol": "Gp"
+  },
+  {
+    "name": "OpenNMS",
+    "category": "monitoring",
+    "number": 64,
+    "pay": "Os",
+    "symbol": "On"
+  },
+  {
+    "name": "Kafka",
+    "category": "monitoring",
+    "number": 65,
+    "pay": "Os",
+    "symbol": "Kk"
+  },
+
+  {
+    "name": "JUnit",
+    "category": "testing",
+    "number": 23,
+    "pay": "Os",
+    "symbol": "Ju"
+  },
+  {
+    "name": "Selenium",
+    "category": "testing",
+    "number": 24,
+    "pay": "Os",
+    "symbol": "Se"
+  },
+  {
+    "name": "Cucumber",
+    "category": "testing",
+    "number": 25,
+    "pay": "Os",
+    "symbol": "Cc"
+  },
+  {
+    "name": "Robot Framework",
+    "category": "testing",
+    "number": 26,
+    "pay": "Os",
+    "symbol": "Rf"
+  },
+  {
+    "name": "Gatling",
+    "category": "testing",
+    "number": 41,
+    "pay": "Os",
+    "symbol": "Gl"
+  },
+  {
+    "name": "Gauge",
+    "category": "testing",
+    "number": 42,
+    "pay": "Os",
+    "symbol": "Gg"
+  },
+  {
+    "name": "Mocha",
+    "category": "testing",
+    "number": 43,
+    "pay": "Os",
+    "symbol": "Mc"
+  },
+  {
+    "name": "JMeter",
+    "category": "testing",
+    "number": 44,
+    "pay": "Os",
+    "symbol": "Jm"
+  },
+  {
+    "name": "Jasmine",
+    "category": "testing",
+    "number": 73,
+    "pay": "Os",
+    "symbol": "Ja"
+  },
+  {
+    "name": "Chaos Monkey",
+    "category": "testing",
+    "number": 72,
+    "pay": "Os",
+    "symbol": "Jm"
+  },
+  {
+    "name": "Soap UI",
+    "category": "testing",
+    "number": 74,
+    "pay": "Os",
+    "symbol": "Su"
+  },
+  {
+    "name": "PostMan",
+    "category": "testing",
+    "number": 75,
+    "pay": "Os",
+    "symbol": "Pm"
+  },
+  {
+    "name": "TestNG",
+    "category": "testing",
+    "number": 76,
+    "pay": "Os",
+    "symbol": "Tn"
+  },
+  {
+    "name": "Jacoco",
+    "category": "testing",
+    "number": 77,
+    "pay": "Os",
+    "symbol": "Jc"
+  },
+  {
+    "name": "Protractor",
+    "category": "testing",
+    "number": 105,
+    "pay": "Os",
+    "symbol": "Pt"
+  },
+  {
+    "name": "DBUnit",
+    "category": "testing",
+    "number": 104,
+    "pay": "Os",
+    "symbol": "Du"
+  },
+  {
+    "name": "Karma",
+    "category": "testing",
+    "number": 106,
+    "pay": "Os",
+    "symbol": "Km"
+  },
+  {
+    "name": "Powermock",
+    "category": "testing",
+    "number": 107,
+    "pay": "Os",
+    "symbol": "Po"
+  },
+  {
+    "name": "Pact",
+    "category": "testing",
+    "number": 108,
+    "pay": "Os",
+    "symbol": "Pa"
+  },
+  {
+    "name": "Karate",
+    "category": "testing",
+    "number": 109,
+    "pay": "Os",
+    "symbol": "Ka"
+  },
+
+  {
+    "name": "BlackDuck",
+    "category": "security",
+    "number": 98,
+    "pay": "Os",
+    "symbol": "Bd"
+  },
+  {
+    "name": "SonarQube",
+    "category": "security",
+    "number": 70,
+    "pay": "Os",
+    "symbol": "Sq"
+  },
+  {
+    "name": "Nessus",
+    "category": "security",
+    "number": 69,
+    "pay": "Os",
+    "symbol": "Ns"
+  },
+  {
+    "name": "OWASP",
+    "category": "security",
+    "number": 103,
+    "pay": "Os",
+    "symbol": "Ow"
+  },
+  {
+    "name": "Hashicorp Vault",
+    "category": "security",
+    "number": 102,
+    "pay": "Os",
+    "symbol": "Hv"
+  },
+  {
+    "name": "Veracode",
+    "category": "security",
+    "number": 101,
+    "pay": "Pd",
+    "symbol": "Vr"
+  },
+  {
+    "name": "PMD",
+    "category": "security",
+    "number": 100,
+    "pay": "Os",
+    "symbol": "Pd"
+  },
+  {
+    "name": "Ettercap",
+    "category": "security",
+    "number": 68,
+    "pay": "Pd",
+    "symbol": "Et"
+  },
+  {
+    "name": "Lynis",
+    "category": "security",
+    "number": 67,
+    "pay": "Os",
+    "symbol": "Ly"
+  },
+  {
+    "name": "Cuckoo sandbox",
+    "category": "security",
+    "number": 66,
+    "pay": "Os",
+    "symbol": "Cs"
+  },
+  {
+    "name": "Spacewalk",
+    "category": "security",
+    "number": 99,
+    "pay": "Os",
+    "symbol": "Sw"
+  },
+
+  {
+    "name": "Ansible",
+    "category": "config",
+    "number": 27,
+    "pay": "Os",
+    "symbol": "As"
+  },
+  {
+    "name": "Chef",
+    "category": "config",
+    "number": 45,
+    "pay": "Os",
+    "symbol": "Cf"
+  },
+  {
+    "name": "Puppet",
+    "category": "config",
+    "number": 110,
+    "pay": "Os",
+    "symbol": "Pu"
+  },
+  {
+    "name": "Saltstack Salt",
+    "category": "config",
+    "number": 46,
+    "pay": "Os",
+    "symbol": "Sa"
+  },
+  {
+    "name": "Packer",
+    "category": "config",
+    "number": 28,
+    "pay": "Os",
+    "symbol": "Pk"
+  },
+  {
+    "name": "CFEngine",
+    "category": "config",
+    "number": 78,
+    "pay": "Os",
+    "symbol": "Ce"
+  },
+
+  {
+    "name": "BOSH",
+    "category": "deployment",
+    "number": 79,
+    "pay": "Os",
+    "symbol": "Bo"
+  },
+  {
+    "name": "Terraform",
+    "category": "deployment",
+    "number": 29,
+    "description": "Terraform 是一种安全有效地构建、更改和版本控制基础设施的工具(基础架构自动化的编排工具)。它的目标是 \"Write, Plan, and create Infrastructure as Code\", 基础架构即代码。",
+    "pay": "Os",
+    "symbol": "Tf"
+  },
+  {
+    "name": "GoCD",
+    "category": "deployment",
+    "number": 30,
+    "pay": "Os",
+    "symbol": "Go"
+  },
+  {
+    "name": "Pulumi",
+    "category": "deployment",
+    "number": 47,
+    "pay": "Os",
+    "symbol": "Pl"
+  },
+  {
+    "name": "Octopus Deploy",
+    "category": "deployment",
+    "number": 48,
+    "pay": "Pd",
+    "symbol": "Od"
+  },
+  {
+    "name": "AWS CodeDeploy",
+    "category": "deployment",
+    "number": 111,
+    "pay": "Pd",
+    "symbol": "Ad"
+  },
+
+  {
+    "name": "Docker",
+    "category": "containers",
+    "number": 5,
+    "pay": "Os",
+    "symbol": "Dk"
+  },
+  {
+    "name": "Kubernetes",
+    "category": "containers",
+    "number": 13,
+    "pay": "Os",
+    "symbol": "K8"
+  },
+  {
+    "name": "Mesos",
+    "category": "containers",
+    "number": 31,
+    "pay": "Os",
+    "symbol": "Mo"
+  },
+  {
+    "name": "Rancher",
+    "category": "containers",
+    "number": 49,
+    "pay": "Os",
+    "symbol": "Rc"
+  },
+  {
+    "name": "Helm",
+    "category": "containers",
+    "number": 81,
+    "pay": "Os",
+    "symbol": "He"
+  },
+  {
+    "name": "Pivotal PKS",
+    "category": "containers",
+    "number": 80,
+    "pay": "Os",
+    "symbol": "Pp"
+  },
+  {
+    "name": "CoreOS Rkt",
+    "category": "containers",
+    "number": 113,
+    "pay": "Os",
+    "symbol": "Cr"
+  },
+  {
+    "name": "K3s",
+    "category": "containers",
+    "number": 112,
+    "pay": "Os",
+    "symbol": "K3"
+  },
+
+
+  {
+    "name": "OpenMake",
+    "category": "releaseOrchestration",
+    "number": 32,
+    "pay": "Pd",
+    "symbol": "Om"
+  },
+  {
+    "name": "UrbanCode Release",
+    "category": "releaseOrchestration",
+    "number": 14,
+    "pay": "Pd",
+    "symbol": "Ur"
+  },
+  {
+    "name": "Spinnaker",
+    "category": "releaseOrchestration",
+    "number": 6,
+    "pay": "Os",
+    "symbol": "Sp"
+  },
+  {
+    "name": "Plutora Release",
+    "category": "releaseOrchestration",
+    "number": 50,
+    "pay": "Os",
+    "symbol": "Pr"
+  },
+  {
+    "name": "XebiaLabs XL Deploy ",
+    "category": "releaseOrchestration",
+    "number": 82,
+    "pay": "Os",
+    "symbol": "Xl"
+  },
+
+
+  {
+    "name": "Cloud Foundry",
+    "category": "openCloud",
+    "number": 16,
+    "pay": "Os",
+    "symbol": "Cf"
+  },
+  {
+    "name": "OpenShift",
+    "category": "openCloud",
+    "number": 52,
+    "pay": "Os",
+    "symbol": "Os"
+  },
+  {
+    "name": "OpenStack",
+    "category": "openCloud",
+    "number": 8,
+    "pay": "Os",
+    "symbol": "Ot"
+  },
+  {
+    "name": "OpenWhisk",
+    "category": "openCloud",
+    "number": 34,
+    "pay": "Os",
+    "symbol": "Ow"
+  },
+  {
+    "name": "OpenFaaS",
+    "category": "openCloud",
+    "number": 84,
+    "pay": "Os",
+    "symbol": "Of"
+  },
+
+  {
+    "name": "Azure",
+    "category": "publicCloud",
+    "number": 83,
+    "pay": "Pd",
+    "symbol": "Az"
+  },
+  {
+    "name": "AWS China",
+    "category": "publicCloud",
+    "number": 15,
+    "pay": "Pd",
+    "symbol": "Ac"
+  },
+  {
+    "name": "Google Cloud",
+    "category": "publicCloud",
+    "number": 7,
+    "pay": "Pd",
+    "symbol": "Gc"
+  },
+  {
+    "name": "IBM Cloud",
+    "category": "publicCloud",
+    "number": 114,
+    "pay": "Pd",
+    "symbol": "Ic"
+  },
+  {
+    "name": "Alibaba Cloud",
+    "category": "publicCloud",
+    "number": 33,
+    "pay": "Pd",
+    "symbol": "Al"
+  },
+  {
+    "name": "Tencent Cloud",
+    "category": "publicCloud",
+    "number": 115,
+    "pay": "Pd",
+    "symbol": "Tc"
+  },
+  {
+    "name": "Huawei Cloud",
+    "category": "publicCloud",
+    "number": 51,
+    "pay": "Pd",
+    "symbol": "Hc"
+  },
+
+
+  {
+    "name": "Splunk",
+    "category": "aiops",
+    "number": 9,
+    "pay": "Os",
+    "symbol": "Sp"
+  },
+  {
+    "name": "Logstash",
+    "category": "aiops",
+    "number":17,
+    "pay": "Os",
+    "symbol": "Ls"
+  },
+  {
+    "name": "Fluent",
+    "category": "aiops",
+    "number":35,
+    "pay": "Os",
+    "symbol": "Fe"
+  },
+  {
+    "name": "Prometheus",
+    "category": "aiops",
+    "number":53,
+    "pay": "Os",
+    "symbol": "Pt"
+  },
+  {
+    "name": "Moogsoft",
+    "category": "aiops",
+    "number": 85,
+    "pay": "Pd",
+    "symbol": "Ms"
+  },
+
+  {
+    "name": "Kibana",
+    "category": "analytics",
+    "number": 2,
+    "pay": "Os",
+    "symbol": "Kb"
+  },
+  {
+    "name": "AppDynamics",
+    "category": "analytics",
+    "number": 10,
+    "pay": "Os",
+    "symbol": "Ad"
+  },
+  {
+    "name": "PinPoint",
+    "category": "analytics",
+    "number": 18,
+    "pay": "Os",
+    "symbol": "Pp"
+  },
+
+  {
+    "name": "Tableau",
+    "category": "analytics",
+    "number": 36,
+    "pay": "Pd",
+    "symbol": "Tb"
+  },
+  {
+    "name": "Grafana",
+    "category": "analytics",
+    "number": 54,
+    "pay": "Os",
+    "symbol": "Gr"
+  },
+  {
+    "name": "Piwik",
+    "category": "analytics",
+    "number": 86,
+    "pay": "Os",
+    "symbol": "Pw"
+  },
+
+  {
+    "name": "Jira",
+    "category": "collaboration",
+    "number": 89,
+    "pay": "Pd",
+    "symbol": "Jr"
+  },
+  {
+    "name": "Mural",
+    "category": "collaboration",
+    "number": 90,
+    "pay": "Pd",
+    "symbol": "Mr"
+  },
+  {
+    "name": "Rocket Chat",
+    "category": "collaboration",
+    "number": 91,
+    "pay": "Os",
+    "symbol": "Rc"
+  },
+  {
+    "name": "Teambition",
+    "category": "collaboration",
+    "number": 92,
+    "pay": "Pd",
+    "symbol": "Tb"
+  },
+  {
+    "name": "Confluence",
+    "category": "collaboration",
+    "number": 93,
+    "pay": "Pd",
+    "symbol": "Cf"
+  },
+  {
+    "name": "Wekan",
+    "category": "collaboration",
+    "number": 94,
+    "pay": "Pd",
+    "symbol": "Wk"
+  },
+  {
+    "name": "RetroTool",
+    "category": "collaboration",
+    "number": 95,
+    "pay": "Fm",
+    "symbol": "Rt"
+  },
+  {
+    "name": "Bugzilla",
+    "category": "collaboration",
+    "number": 96,
+    "pay": "Os",
+    "symbol": "Bz"
+  },
+  {
+    "name": "Redmine",
+    "category": "collaboration",
+    "number": 97,
+    "pay": "Os",
+    "symbol": "Rm"
+  },
+  {
+    "name": "TBD",
+    "category": "placeholder",
+    "number": 116,
+    "pay": "",
+    "symbol": ""
+  },
+  {
+    "name": "TBD",
+    "category": "placeholder",
+    "number": 117,
+    "pay": "",
+    "symbol": ""
+  },
+  {
+    "name": "TBD",
+    "category": "placeholder",
+    "number": 118,
+    "pay": "",
+    "symbol": ""
+  },
+  {
+    "name": "TBD",
+    "category": "placeholder",
+    "number": 71,
+    "pay": "",
+    "symbol": ""
+  }
+]
