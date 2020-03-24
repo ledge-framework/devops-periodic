@@ -3,7 +3,7 @@ import {createCustomElement} from '@angular/elements';
 import {PeriodicTableComponent} from './periodic-table/periodic-table.component';
 
 @Component({
-  selector: 'devops-periodic',
+  selector: 'wc-devops-periodic',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

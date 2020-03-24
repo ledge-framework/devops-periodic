@@ -46,7 +46,7 @@ const ACT_ATOM_GROUP = {
 };
 
 @Component({
-  selector: 'app-periodic-table',
+  selector: 'plugin-periodic-table',
   templateUrl: './periodic-table.component.html',
   styleUrls: ['./periodic-table.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
