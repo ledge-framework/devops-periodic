@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'devops-periodic';
   constructor(injector: Injector) {
     const CEElement = createCustomElement(PeriodicTableComponent, {injector});
-    customElements.define('devops-periodic', CEElement);
+    // tslint:disable-next-line:no-unused-expression
+    customElements.get('devops-periodic') || customElements.define('devops-periodic', CEElement);
   }
 }
