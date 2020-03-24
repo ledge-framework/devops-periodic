@@ -4,6 +4,19 @@
 
 ![ScreenShot](docs/devops-periodic-list.jpg)
 
+## Usage
+
+```
+<devops-periodic></devops-periodic>
+<script src="https://phodal.github.io/devops-periodic/elements.js"></script>
+```
+
+## Dev
+
+1. install by `yarn install`
+2. run by `yarn start`
+3. deploy `yarn deploy`
+
 ## Inspired by
 
 Periodic
