@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+$default-font-size: 1.4rem;
+$phase-font-size: 2.5rem;
+$shell-font-size: 0.85rem;
+$name-font-size: 0.75rem;
+
+@mixin listItemStyle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.atom {
+    background: #000;
+
+    &-container {
+        display: flex;
+        height: 100%;
+        padding: 5px;
+
+        &-summary {
+            @include listItemStyle();
+            font-size: $default-font-size;
+            flex: 1 0 auto;
+
+            .name {
+                color: #fff;
+                font-size: $shell-font-size;
+            }
+
+            .description {
+                font-size: $name-font-size;
+                width: 128px;
+            }
+        }
+
+        &-shelf {
+            @include listItemStyle;
+            font-size: $shell-font-size;
+            flex: 0 0 auto;
+            text-align: right;
+        }
+    }
+}

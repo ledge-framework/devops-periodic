@@ -1,21 +1,22 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PeriodicTableComponent } from './periodic-table.component';
+import { AtomComponent } from './atom.component';
 
-describe('PeriodicTableComponent', () => {
-  let component: PeriodicTableComponent;
-  let fixture: ComponentFixture<PeriodicTableComponent>;
+describe('AtomComponent', () => {
+  let component: AtomComponent;
+  let fixture: ComponentFixture<AtomComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PeriodicTableComponent ]
+      declarations: [ AtomComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PeriodicTableComponent);
+    fixture = TestBed.createComponent(AtomComponent);
     component = fixture.componentInstance;
+    component.data = '';
     fixture.detectChanges();
   });
 

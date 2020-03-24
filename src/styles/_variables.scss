@@ -1,0 +1,47 @@
+$solid-background-color: #171717;
+$liquid-background-color: #2D51E1;
+$gas-background-color: #923A49;
+$unknown-background-color: #898989;
+$gas-color: #990000;
+$liquid-color: #0000dd;
+$solid-color: #000;
+$unknown-color: #667766;
+$border-color: #CCC;
+$thick-border-color: #9a9a9a;
+$gray: #D3D3D3;
+
+
+.type-9690 { background:#F37C20; } /* DATABASE */
+.type-6475 { background:#E9BD1E; } /* SCM */
+.type-5506 { background:#00A2A1; } /* BUILD */
+.type-5675 { background:#0062CE; } /* CI */
+.type-6558 { background:#666666; } /* REPO MANAGEMENT */
+.type-5679 { background:#DC5332; } /* TESTING */
+.type-5700 { background:#079948; } /* DEPLOYMENT */
+.type-5665 { background:#999999; } /* CONFIG / PROVISIONING */
+.type-6554 { background:#800080; } /* CONTAINERIZATION */
+.type-5677 { background:#003366; } /* CLOUD / IAAS / PAAS */
+.type-5680 { background:#AA217E; } /* RELEASE */
+.type-6514 { background:#55acee; } /* COLLAB */
+.type-5678 { background:#444444; } /* BI / MONITORING */
+.type-6503 { background:#61bb46; } /* LOGGING */
+.type-6502 { background:#007C78; } /* SECURITY */
+
+.packageManage {background: #666666}
+.scm { background:#7f195e; } /* SCM */
+.deployment  { background:#09c95e; } /* DEPLOYMENT */
+.analytics  { background:#008988; } /* ANALYTICS */
+.database  { background:#f37c20; } /* DATABASE */
+.containers  { background:#3e4853; } /* CONTAINERS */
+.monitoring  { background:#6a7b8d; } /* MONITORING */
+.ci  { background:#46bbff; } /* CI */
+.releaseOrchestration  { background:#06803c; } /* RELEASE ORCHESTRATION */
+.security { background:#008ddf; } /* SECURITY */
+.testing { background:#dc5332; } /* TESTING */
+.openCloud  { background:#e9bd1e; } /* CLOUD */
+.publicCloud  { background: #762ce9; } /* CLOUD */
+.collaboration  { background:#aa217e; } /* COLLAB */
+.config  { background:#005d92; } /* CONFIG */
+.aiops  { background:#bc580a; } /* AI OPS */
+.operation  { background: #4178bc; } /* AI OPS */
+.placeholder {background: #dda750;}

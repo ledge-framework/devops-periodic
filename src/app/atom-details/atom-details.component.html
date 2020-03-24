@@ -1,0 +1,9 @@
+<div class="atom-container {{data.category}}" *ngIf="data">
+  <ul class="atom-container-summary">
+    <li class="name">{{ data.name }}</li>
+    <li class="description">{{ data.description }}</li>
+  </ul>
+  <ul class="atom-container-shelf">
+    <li *ngFor="let s of data.shells">{{ s }}</li>
+  </ul>
+</div>

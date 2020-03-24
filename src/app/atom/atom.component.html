@@ -1,0 +1,20 @@
+<div class="atom-container {{ data.category }}"
+     [ngClass]="selectedCategory === data.category ? 'selected-category': 'unselect'"
+     (mouseenter)="debounceMouseEnter()"
+     (mouseleave)="debounceMouseLeave()">
+
+    <p class="atomic">
+        {{ data.number }}
+        <span class="pay-type">{{ data.pay }}</span>
+    </p>
+    <p class="symbol">
+        {{ data.symbol }}
+    </p>
+    <p class="name" *ngIf="data.name; else blankName">{{ data.name }}</p>
+</div>
+
+<ng-template #blankSymbol><p class="symbol">&nbsp;</p></ng-template>
+
+<ng-template #blankName><p class="name">&nbsp;</p></ng-template>
+
+<ng-template #blankWeight><p class="weight">&nbsp;</p></ng-template>

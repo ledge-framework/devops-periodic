@@ -1,0 +1,72 @@
+@import '../../styles/variables';
+
+:host {
+
+}
+
+$selected-color: #fff;
+
+@media screen and (min-width: 2501px) and (max-width: 4000px) {
+  .atom-container {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+
+.atom-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding-left: 3px;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  transition: transform .2s; /* Animation */
+
+  &.unselect {
+    //opacity: 0.8;
+  }
+
+  &.selected-category {
+    background: #000;
+  }
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.5);
+    z-index: 1111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+
+    &.atomic {
+      font-size: 0.7em;
+      top: 0.1em;
+    }
+
+    .pay-type {
+      float: right;
+      margin-right: 4px;
+    }
+
+    &.symbol {
+      margin-top: 0.1em;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    &.name,
+    &.weight {
+      margin-top: 0.1em;
+      font-size: 0.8em;
+      line-height: 1.6em;
+    }
+  }
+
+  &.blurry {
+    opacity: 0.5;
+  }
+}
