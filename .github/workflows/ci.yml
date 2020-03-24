@@ -44,7 +44,7 @@ jobs:
 #    - name: Testing
 #      run: npm test --configuration=ci
     - name: Build
-      run: ng build --prod
+      run: ng build --prod --output-hashing=none --base-href=/devops-periodic/ && cat dist/devops-periodic/{runtime,polyfills,main}-es5.js > dist/devops-periodic/elements.js
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
