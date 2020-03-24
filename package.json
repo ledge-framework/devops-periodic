@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --output-hashing=none --base-href=/devops-periodic/",
-    "package": "cat dist/devops-periodic/{runtime,polyfills,scripts,main}-es5.js| gzip > dist/devops-periodic/elements.js.gz",
+    "package": "cat dist/devops-periodic/{runtime,polyfills,main}-es5.js > dist/devops-periodic/elements.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
