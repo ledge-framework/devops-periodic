@@ -9,13 +9,10 @@ import {
   Output,
   SimpleChanges,
 } from '@angular/core';
-import { assign, get } from 'lodash-es';
+import { get } from 'lodash-es';
 import { combineLatest, Observable, Subject } from 'rxjs';
 import { debounceTime, map, startWith, takeUntil, tap } from 'rxjs/operators';
 import { Atom, HighlightState } from '../shared';
-
-const MAX_ROW_INDEX = 7;
-const MAX_COL_INDEX = 18;
 const DESCRIPTION = {
   number: 'Atomic',
   symbol: 'SYM',
