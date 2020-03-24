@@ -4,12 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing=none",
+    "build": "ng build --prod --output-hashing=none --base-href=/devops-periodic/",
     "package": "cat dist/devops-periodic/{runtime,polyfills,scripts,main}-es5.js| gzip > dist/devops-periodic/elements.js.gz",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "yarn build && yarn package && ng deploy --no-build"
+    "deploy": "yarn build && yarn package && ng deploy --base-href=/devops-periodic/ --no-build"
   },
   "private": true,
   "dependencies": {
