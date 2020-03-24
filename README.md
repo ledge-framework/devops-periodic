@@ -2,6 +2,8 @@
 
 > A DevOps Tools Periodic Table for DevOps Learning and Design. Design with Web Component can use it any page.
 
+![CI](https://github.com/phodal/devops-periodic/workflows/CI/badge.svg)
+
 ![ScreenShot](docs/devops-periodic-list.jpg)
 
 ## Usage
