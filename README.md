@@ -7,7 +7,7 @@
 ## Usage
 
 ```
-<devops-periodic></devops-periodic>
+<wc-devops-periodic></wc-devops-periodic>
 <script src="https://phodal.github.io/devops-periodic/elements.js"></script>
 ```
 
