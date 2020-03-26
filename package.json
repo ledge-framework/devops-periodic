@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing=none --extraWebpackConfig=webpack.extra.js --base-href=/devops-periodic/",
+    "build": "ng build --prod --output-hashing=none --extra-webpack-config webpack.externals.js --project devops-periodic --single-bundle --base-href=/devops-periodic/",
     "package": "cat dist/devops-periodic/{runtime,main,polyfills}-es5.js > dist/devops-periodic/elements.js",
     "test": "ng test",
     "lint": "ng lint",
