@@ -26,15 +26,6 @@ SOFTWARE.
 @angular/common
 MIT
 
-@angular/core
-MIT
-
-@angular/elements
-MIT
-
-@angular/platform-browser
-MIT
-
 core-js
 MIT
 Copyright (c) 2014-2020 Denis Pushkarev
