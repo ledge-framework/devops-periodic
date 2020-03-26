@@ -4,12 +4,16 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing=none --base-href=/devops-periodic/",
-    "package": "cat dist/devops-periodic/{runtime,polyfills,main}-es5.js > dist/devops-periodic/elements.js",
+    "build": "ng build --prod --output-hashing=none --extraWebpackConfig=webpack.extra.js --base-href=/devops-periodic/",
+    "package": "cat dist/devops-periodic/{runtime,main,polyfills}-es5.js > dist/devops-periodic/elements.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "yarn build && yarn package && ng deploy --base-href=/devops-periodic/ --no-build"
+    "deploy": "yarn build && yarn package && ng deploy --base-href=/devops-periodic/ --no-build",
+    "postinstall:bak": "",
+    "postinstall": "ngcc",
+    "build:externals": "ng build --extra-webpack-config webpack.externals.js --prod --single-bundle",
+    "build:devops-periodic:externals": "ng build --extra-webpack-config webpack.externals.js --prod --project devops-periodic --single-bundle"
   },
   "private": true,
   "dependencies": {
@@ -22,8 +26,10 @@
     "@angular/platform-browser": "~9.0.3",
     "@angular/platform-browser-dynamic": "~9.0.3",
     "@angular/router": "~9.0.3",
+    "@webcomponents/webcomponentsjs": "^2.4.3",
     "document-register-element": "^1.7.2",
     "lodash-es": "^4.17.15",
+    "ngx-build-plus": "^9.0.6",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
